@@ -41,7 +41,7 @@ Toggle_Chat_For_Player(playerid, bool: showorno)
 
 public OnPlayerConnect(playerid)
 {
-    for (new a = 0; a < 15; a ++) 
+    for (new a = 0; a < MAX_TEXT_SAVE; a ++) 
     {
         format(gSentMessages[ playerid ][ a ], MAX_CHAT_MESSAGE_LENGTH, "");
         gSent_Color_Save[ playerid ][ a ] = -1;
