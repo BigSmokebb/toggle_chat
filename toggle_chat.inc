@@ -21,7 +21,6 @@ new bool:IsPlayerToggleChat[MAX_PLAYERS];
 
 Toggle_Chat_For_Player(playerid, bool: showorno)
 {
-    new STRINGE[ 256 ];
     if(showorno == true)
     {
         IsPlayerToggleChat[playerid] = false;
